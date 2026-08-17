@@ -1,0 +1,86 @@
+{
+  "run": {
+    "model": "claude-opus-5",
+    "effort": null,
+    "timestamp": "2026-08-17T20:27:30.841023+00:00",
+    "documents_processed": 35,
+    "total_input_tokens": 102192,
+    "total_output_tokens": 14154
+  },
+  "documents_scored": 35,
+  "overall_accuracy": 0.9933333333333333,
+  "total_fields": 750,
+  "total_correct": 745,
+  "field_stats": [
+    {
+      "field_type": "line_items.description",
+      "correct": 130,
+      "total": 135,
+      "accuracy": 0.9629629629629629,
+      "mismatches": 5
+    },
+    {
+      "field_type": "buyer_name",
+      "correct": 35,
+      "total": 35,
+      "accuracy": 1.0,
+      "mismatches": 0
+    },
+    {
+      "field_type": "date",
+      "correct": 35,
+      "total": 35,
+      "accuracy": 1.0,
+      "mismatches": 0
+    },
+    {
+      "field_type": "document_number",
+      "correct": 35,
+      "total": 35,
+      "accuracy": 1.0,
+      "mismatches": 0
+    },
+    {
+      "field_type": "document_type",
+      "correct": 35,
+      "total": 35,
+      "accuracy": 1.0,
+      "mismatches": 0
+    },
+    {
+      "field_type": "line_items.quantity",
+      "correct": 135,
+      "total": 135,
+      "accuracy": 1.0,
+      "mismatches": 0
+    },
+    {
+      "field_type": "line_items.total",
+      "correct": 135,
+      "total": 135,
+      "accuracy": 1.0,
+      "mismatches": 0
+    },
+    {
+      "field_type": "line_items.unit_price",
+      "correct": 135,
+      "total": 135,
+      "accuracy": 1.0,
+      "mismatches": 0
+    },
+    {
+      "field_type": "total_amount",
+      "correct": 35,
+      "total": 35,
+      "accuracy": 1.0,
+      "mismatches": 0
+    },
+    {
+      "field_type": "vendor_name",
+      "correct": 35,
+      "total": 35,
+      "accuracy": 1.0,
+      "mismatches": 0
+    }
+  ]
+}

@@ -14,6 +14,7 @@ import argparse
 import base64
 import json
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 
 import anthropic
@@ -139,6 +140,22 @@ def main():
                           + total_output_tokens / 1_000_000 * pricing["output"])
             print(f"Estimated cost: ${total_cost:.4f} total (${total_cost / succeeded:.4f}/document) "
                   f"at standard pricing (${pricing['input']:.2f} in / ${pricing['output']:.2f} out per MTok)")
+
+    # Written alongside the per-document outputs so a scoring report generated
+    # from this directory can identify exactly which run it came from -- a
+    # report should never be silently mistakable for a different
+    # configuration's output (see README Limitations: this is how an earlier
+    # contamination incident, a stray single-document call overwriting part
+    # of a full run, is now caught instead of silently publishing a number).
+    run_metadata = {
+        "model": args.model,
+        "effort": args.effort,
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "documents_processed": succeeded,
+        "total_input_tokens": total_input_tokens,
+        "total_output_tokens": total_output_tokens,
+    }
+    (args.output_dir / "run_metadata.json").write_text(json.dumps(run_metadata, indent=2), encoding="utf-8")
 
 
 if __name__ == "__main__":

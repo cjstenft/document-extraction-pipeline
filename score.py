@@ -171,7 +171,20 @@ def main():
             print()
 
     # --- Persist a machine-readable report for reference ---
+    # run_metadata.json is written by extract.py alongside its per-document
+    # output; folding it in here means a scoring report can never be silently
+    # mistaken for a different configuration's output (model/effort/when).
+    run_metadata_path = args.output_dir / "run_metadata.json"
+    run_metadata = None
+    if run_metadata_path.exists():
+        run_metadata = json.loads(run_metadata_path.read_text(encoding="utf-8"))
+    else:
+        print(f"\nWarning: no run_metadata.json in {args.output_dir}/ "
+              f"(from an extract.py run before metadata tracking was added) -- "
+              f"report will not record which model/effort produced it.")
+
     report = {
+        "run": run_metadata,
         "documents_scored": len(doc_ids),
         "overall_accuracy": overall_accuracy,
         "total_fields": total_fields,
