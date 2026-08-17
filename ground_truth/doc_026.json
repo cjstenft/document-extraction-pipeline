@@ -1,28 +1,34 @@
 {
   "document_type": "packing_slip",
-  "document_number": "PS-736130",
-  "date": "2024-03-16",
-  "vendor_name": "Copperfield Industrial Supply",
-  "buyer_name": "Northstar Foods Corp.",
+  "document_number": "PS-549186",
+  "date": "2023-12-22",
+  "vendor_name": "Vantage Point Wholesale",
+  "buyer_name": "Cedarbrook Retail Group",
   "line_items": [
     {
-      "description": "Extension Cord, 25ft 12AWG",
-      "quantity": 31,
-      "unit_price": 30.87,
-      "total": 956.97
+      "description": "Stainless Steel Hex Bolt, M8",
+      "quantity": 7,
+      "unit_price": 0.35,
+      "total": 2.45
     },
     {
-      "description": "Safety Goggles, Case of 12",
-      "quantity": 48,
-      "unit_price": 25.05,
-      "total": 1202.4
+      "description": "Wireless Optical Mouse",
+      "quantity": 24,
+      "unit_price": 33.16,
+      "total": 795.84
     },
     {
-      "description": "Ball Bearing, 608ZZ",
-      "quantity": 6,
-      "unit_price": 0.83,
-      "total": 4.98
+      "description": "Cordless Drill, 20V",
+      "quantity": 30,
+      "unit_price": 118.05,
+      "total": 3541.5
+    },
+    {
+      "description": "Aluminum Extrusion, 1m Length",
+      "quantity": 28,
+      "unit_price": 12.05,
+      "total": 337.4
     }
   ],
-  "total_amount": 2164.35
+  "total_amount": 4677.19
 }

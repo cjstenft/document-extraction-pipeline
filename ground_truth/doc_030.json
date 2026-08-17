@@ -1,46 +1,52 @@
 {
   "document_type": "bill_of_lading",
-  "document_number": "BOL-76162",
-  "date": "2024-03-29",
-  "vendor_name": "Brightwater Electronics",
-  "buyer_name": "Brookline Restaurant Group",
+  "document_number": "BOL-67733",
+  "date": "2024-04-25",
+  "vendor_name": "Copperfield Industrial Supply",
+  "buyer_name": "Palisade Construction Co.",
   "line_items": [
     {
-      "description": "Anti-Static Wrist Strap",
-      "quantity": 41,
-      "unit_price": 4.66,
-      "total": 191.06
-    },
-    {
-      "description": "Adjustable Laptop Stand",
-      "quantity": 50,
-      "unit_price": 37.29,
-      "total": 1864.5
+      "description": "Hydraulic Fitting, 1/2in NPT",
+      "quantity": 37,
+      "unit_price": 11.22,
+      "total": 415.14
     },
     {
       "description": "Aluminum Extrusion, 1m Length",
-      "quantity": 41,
-      "unit_price": 12.97,
-      "total": 531.77
+      "quantity": 4,
+      "unit_price": 11.7,
+      "total": 46.8
     },
     {
-      "description": "Vinyl Floor Marking Tape, 2in",
-      "quantity": 29,
-      "unit_price": 8.77,
-      "total": 254.33
+      "description": "Case of Copy Paper (10 reams)",
+      "quantity": 37,
+      "unit_price": 60.78,
+      "total": 2248.86
     },
     {
-      "description": "Hydraulic Fitting, 1/2in NPT",
-      "quantity": 19,
-      "unit_price": 8.26,
-      "total": 156.94
+      "description": "Steel L-Bracket, 4in",
+      "quantity": 6,
+      "unit_price": 3.49,
+      "total": 20.94
     },
     {
-      "description": "Corrugated Shipping Box, 18x18x18",
-      "quantity": 22,
-      "unit_price": 2.6,
-      "total": 57.2
+      "description": "Nitrile Gloves, Box of 100",
+      "quantity": 8,
+      "unit_price": 13.8,
+      "total": 110.4
+    },
+    {
+      "description": "Wooden Shipping Pallet, 48x40",
+      "quantity": 27,
+      "unit_price": 18.06,
+      "total": 487.62
+    },
+    {
+      "description": "Extension Cord, 25ft 12AWG",
+      "quantity": 40,
+      "unit_price": 19.51,
+      "total": 780.4
     }
   ],
-  "total_amount": 3055.8
+  "total_amount": 4110.16
 }

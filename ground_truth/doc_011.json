@@ -1,22 +1,28 @@
 {
   "document_type": "packing_slip",
-  "document_number": "PS-559381",
-  "date": "2024-10-27",
-  "vendor_name": "Amberlake Textiles",
-  "buyer_name": "Northstar Foods Corp.",
+  "document_number": "PS-794022",
+  "date": "2024-03-09",
+  "vendor_name": "Westfield Tool & Die",
+  "buyer_name": "Palisade Construction Co.",
   "line_items": [
     {
-      "description": "Corrugated Shipping Box, 18x18x18",
-      "quantity": 22,
-      "unit_price": 1.9,
-      "total": 41.8
+      "description": "Safety Goggles, Case of 12",
+      "quantity": 38,
+      "unit_price": 35.24,
+      "total": 1339.12
     },
     {
-      "description": "Steel L-Bracket, 4in",
-      "quantity": 36,
-      "unit_price": 1.65,
-      "total": 59.4
+      "description": "USB-C Charging Cable, 6ft",
+      "quantity": 4,
+      "unit_price": 12.29,
+      "total": 49.16
+    },
+    {
+      "description": "USB-C Charging Cable, 6ft",
+      "quantity": 33,
+      "unit_price": 13.84,
+      "total": 456.72
     }
   ],
-  "total_amount": 101.2
+  "total_amount": 1845.0
 }

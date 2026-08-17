@@ -1,34 +1,46 @@
 {
   "document_type": "packing_slip",
-  "document_number": "PS-688508",
-  "date": "2024-09-08",
-  "vendor_name": "Pinecrest Logistics",
-  "buyer_name": "Highland Park Grocers",
+  "document_number": "PS-717889",
+  "date": "2023-08-14",
+  "vendor_name": "Redstone Components Inc.",
+  "buyer_name": "Fairview Auto Repair",
   "line_items": [
     {
-      "description": "Packing Tape, Case of 36 Rolls",
-      "quantity": 38,
-      "unit_price": 39.23,
-      "total": 1490.74
+      "description": "Vinyl Floor Marking Tape, 2in",
+      "quantity": 10,
+      "unit_price": 10.15,
+      "total": 101.5
+    },
+    {
+      "description": "Adjustable Laptop Stand",
+      "quantity": 49,
+      "unit_price": 30.45,
+      "total": 1492.05
+    },
+    {
+      "description": "Toner Cartridge, High Yield",
+      "quantity": 6,
+      "unit_price": 69.7,
+      "total": 418.2
     },
     {
       "description": "Cordless Drill, 20V",
-      "quantity": 1,
-      "unit_price": 121.91,
-      "total": 121.91
+      "quantity": 23,
+      "unit_price": 128.56,
+      "total": 2956.88
     },
     {
-      "description": "Corrugated Shipping Box, 18x18x18",
-      "quantity": 11,
-      "unit_price": 3.49,
-      "total": 38.39
+      "description": "Stainless Steel Hex Bolt, M8",
+      "quantity": 39,
+      "unit_price": 0.27,
+      "total": 10.53
     },
     {
-      "description": "Anti-Static Wrist Strap",
-      "quantity": 22,
-      "unit_price": 4.67,
-      "total": 102.74
+      "description": "Hydraulic Fitting, 1/2in NPT",
+      "quantity": 3,
+      "unit_price": 11.97,
+      "total": 35.91
     }
   ],
-  "total_amount": 1753.78
+  "total_amount": 5015.07
 }

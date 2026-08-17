@@ -1,16 +1,34 @@
 {
   "document_type": "bill_of_lading",
-  "document_number": "BOL-40007",
-  "date": "2024-12-25",
-  "vendor_name": "Meridian Hardware Group",
-  "buyer_name": "Ashford Warehouse Solutions",
+  "document_number": "BOL-85880",
+  "date": "2024-08-06",
+  "vendor_name": "Timberline Building Materials",
+  "buyer_name": "Orion Manufacturing LLC",
   "line_items": [
     {
-      "description": "Stainless Steel Hex Bolt, M8",
-      "quantity": 5,
-      "unit_price": 0.38,
-      "total": 1.9
+      "description": "Cordless Drill, 20V",
+      "quantity": 21,
+      "unit_price": 135.1,
+      "total": 2837.1
+    },
+    {
+      "description": "Extension Cord, 25ft 12AWG",
+      "quantity": 14,
+      "unit_price": 28.39,
+      "total": 397.46
+    },
+    {
+      "description": "Ceramic Coffee Mug, 12oz",
+      "quantity": 21,
+      "unit_price": 3.34,
+      "total": 70.14
+    },
+    {
+      "description": "Ball Bearing, 608ZZ",
+      "quantity": 26,
+      "unit_price": 0.63,
+      "total": 16.38
     }
   ],
-  "total_amount": 1.9
+  "total_amount": 3321.08
 }

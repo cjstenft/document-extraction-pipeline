@@ -1,28 +1,58 @@
 {
   "document_type": "bill_of_lading",
-  "document_number": "BOL-22240",
-  "date": "2024-09-26",
+  "document_number": "BOL-52245",
+  "date": "2024-08-29",
   "vendor_name": "Harborview Materials",
-  "buyer_name": "Southgate Retailers Inc.",
+  "buyer_name": "Brookline Restaurant Group",
   "line_items": [
     {
-      "description": "Safety Goggles, Case of 12",
-      "quantity": 3,
-      "unit_price": 26.41,
-      "total": 79.23
+      "description": "Hydraulic Fitting, 1/2in NPT",
+      "quantity": 22,
+      "unit_price": 6.72,
+      "total": 147.84
     },
     {
-      "description": "Industrial Rubber Gasket, 2in",
-      "quantity": 31,
-      "unit_price": 5.96,
-      "total": 184.76
+      "description": "Anti-Static Wrist Strap",
+      "quantity": 21,
+      "unit_price": 4.09,
+      "total": 85.89
     },
     {
-      "description": "Wireless Optical Mouse",
-      "quantity": 50,
-      "unit_price": 14.87,
-      "total": 743.5
+      "description": "Corrugated Shipping Box, 18x18x18",
+      "quantity": 14,
+      "unit_price": 2.68,
+      "total": 37.52
+    },
+    {
+      "description": "Office Chair, Ergonomic Mesh Back",
+      "quantity": 27,
+      "unit_price": 159.48,
+      "total": 4305.96
+    },
+    {
+      "description": "Wooden Shipping Pallet, 48x40",
+      "quantity": 17,
+      "unit_price": 15.4,
+      "total": 261.8
+    },
+    {
+      "description": "Ceramic Coffee Mug, 12oz",
+      "quantity": 39,
+      "unit_price": 4.95,
+      "total": 193.05
+    },
+    {
+      "description": "Office Chair, Ergonomic Mesh Back",
+      "quantity": 18,
+      "unit_price": 160.03,
+      "total": 2880.54
+    },
+    {
+      "description": "Nitrile Gloves, Box of 100",
+      "quantity": 34,
+      "unit_price": 17.51,
+      "total": 595.34
     }
   ],
-  "total_amount": 1007.49
+  "total_amount": 8507.94
 }

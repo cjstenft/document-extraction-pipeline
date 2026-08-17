@@ -1,16 +1,46 @@
 {
   "document_type": "purchase_order",
-  "document_number": "PO-2023-02224",
-  "date": "2023-03-27",
-  "vendor_name": "Stonebridge Fabrication",
-  "buyer_name": "Palisade Construction Co.",
+  "document_number": "PO-2024-09442",
+  "date": "2024-11-19",
+  "vendor_name": "Blue Anchor Industrial",
+  "buyer_name": "Fairview Auto Repair",
   "line_items": [
     {
-      "description": "Nitrile Gloves, Box of 100",
-      "quantity": 21,
-      "unit_price": 10.51,
-      "total": 220.71
+      "description": "Aluminum Extrusion, 1m Length",
+      "quantity": 12,
+      "unit_price": 23.96,
+      "total": 287.52
+    },
+    {
+      "description": "Ball Bearing, 608ZZ",
+      "quantity": 28,
+      "unit_price": 1.31,
+      "total": 36.68
+    },
+    {
+      "description": "Whiteboard Marker, Box of 12",
+      "quantity": 32,
+      "unit_price": 13.75,
+      "total": 440.0
+    },
+    {
+      "description": "Ball Bearing, 608ZZ",
+      "quantity": 22,
+      "unit_price": 1.28,
+      "total": 28.16
+    },
+    {
+      "description": "Anti-Static Wrist Strap",
+      "quantity": 31,
+      "unit_price": 5.09,
+      "total": 157.79
+    },
+    {
+      "description": "Hydraulic Fitting, 1/2in NPT",
+      "quantity": 22,
+      "unit_price": 8.91,
+      "total": 196.02
     }
   ],
-  "total_amount": 234.99
+  "total_amount": 1196.26
 }

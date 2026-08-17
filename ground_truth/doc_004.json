@@ -1,34 +1,28 @@
 {
   "document_type": "purchase_order",
-  "document_number": "PO-2023-06228",
-  "date": "2023-08-27",
-  "vendor_name": "Redstone Components Inc.",
-  "buyer_name": "Northstar Foods Corp.",
+  "document_number": "PO-2024-02678",
+  "date": "2024-06-30",
+  "vendor_name": "Stonebridge Fabrication",
+  "buyer_name": "Lakeshore Automotive Parts",
   "line_items": [
     {
-      "description": "Pallet Wrap Film, 18in x 1500ft",
-      "quantity": 18,
-      "unit_price": 23.23,
-      "total": 418.14
+      "description": "Whiteboard Marker, Box of 12",
+      "quantity": 15,
+      "unit_price": 11.48,
+      "total": 172.2
     },
     {
-      "description": "Adjustable Laptop Stand",
-      "quantity": 44,
-      "unit_price": 41.98,
-      "total": 1847.12
+      "description": "Toner Cartridge, High Yield",
+      "quantity": 50,
+      "unit_price": 95.44,
+      "total": 4772.0
     },
     {
-      "description": "Safety Goggles, Case of 12",
-      "quantity": 39,
-      "unit_price": 33.43,
-      "total": 1303.77
-    },
-    {
-      "description": "Extension Cord, 25ft 12AWG",
-      "quantity": 35,
-      "unit_price": 29.58,
-      "total": 1035.3
+      "description": "Packing Tape, Case of 36 Rolls",
+      "quantity": 15,
+      "unit_price": 53.37,
+      "total": 800.55
     }
   ],
-  "total_amount": 4753.05
+  "total_amount": 5744.75
 }

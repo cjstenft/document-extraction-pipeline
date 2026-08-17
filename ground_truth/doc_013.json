@@ -1,34 +1,22 @@
 {
   "document_type": "purchase_order",
-  "document_number": "PO-2023-02168",
-  "date": "2023-08-08",
-  "vendor_name": "Fieldstone Equipment Rental",
-  "buyer_name": "Marlowe Industrial Partners",
+  "document_number": "PO-2023-03493",
+  "date": "2023-03-17",
+  "vendor_name": "Amberlake Textiles",
+  "buyer_name": "Riverside Assembly Inc.",
   "line_items": [
     {
-      "description": "Aluminum Extrusion, 1m Length",
-      "quantity": 7,
-      "unit_price": 19.06,
-      "total": 133.42
+      "description": "Pallet Wrap Film, 18in x 1500ft",
+      "quantity": 16,
+      "unit_price": 17.91,
+      "total": 286.56
     },
     {
-      "description": "Cordless Drill, 20V",
-      "quantity": 23,
-      "unit_price": 96.77,
-      "total": 2225.71
-    },
-    {
-      "description": "Safety Goggles, Case of 12",
-      "quantity": 30,
-      "unit_price": 37.55,
-      "total": 1126.5
-    },
-    {
-      "description": "Case of Copy Paper (10 reams)",
-      "quantity": 4,
-      "unit_price": 54.16,
-      "total": 216.64
+      "description": "Steel L-Bracket, 4in",
+      "quantity": 11,
+      "unit_price": 2.15,
+      "total": 23.65
     }
   ],
-  "total_amount": 3702.27
+  "total_amount": 327.83
 }

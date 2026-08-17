@@ -1,16 +1,28 @@
 {
   "document_type": "bill_of_lading",
-  "document_number": "BOL-41571",
-  "date": "2023-09-03",
-  "vendor_name": "Fieldstone Equipment Rental",
-  "buyer_name": "Cedarbrook Retail Group",
+  "document_number": "BOL-41850",
+  "date": "2024-08-13",
+  "vendor_name": "Westfield Tool & Die",
+  "buyer_name": "Fairview Auto Repair",
   "line_items": [
     {
-      "description": "Aluminum Extrusion, 1m Length",
-      "quantity": 5,
-      "unit_price": 23.68,
-      "total": 118.4
+      "description": "Case of Copy Paper (10 reams)",
+      "quantity": 23,
+      "unit_price": 48.17,
+      "total": 1107.91
+    },
+    {
+      "description": "Extension Cord, 25ft 12AWG",
+      "quantity": 30,
+      "unit_price": 32.28,
+      "total": 968.4
+    },
+    {
+      "description": "Cordless Drill, 20V",
+      "quantity": 4,
+      "unit_price": 115.5,
+      "total": 462.0
     }
   ],
-  "total_amount": 118.4
+  "total_amount": 2538.31
 }

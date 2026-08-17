@@ -1,46 +1,22 @@
 {
   "document_type": "bill_of_lading",
-  "document_number": "BOL-59797",
-  "date": "2023-04-15",
-  "vendor_name": "Cascade Fastener & Tool",
-  "buyer_name": "Crestwood Contractors",
+  "document_number": "BOL-47930",
+  "date": "2023-02-16",
+  "vendor_name": "Meridian Hardware Group",
+  "buyer_name": "Brookline Restaurant Group",
   "line_items": [
     {
-      "description": "Office Chair, Ergonomic Mesh Back",
-      "quantity": 25,
-      "unit_price": 95.64,
-      "total": 2391.0
-    },
-    {
-      "description": "Hydraulic Fitting, 1/2in NPT",
-      "quantity": 19,
-      "unit_price": 12.72,
-      "total": 241.68
-    },
-    {
-      "description": "USB-C Charging Cable, 6ft",
-      "quantity": 40,
-      "unit_price": 13.77,
-      "total": 550.8
-    },
-    {
-      "description": "Anti-Static Wrist Strap",
-      "quantity": 24,
-      "unit_price": 6.46,
-      "total": 155.04
-    },
-    {
-      "description": "Packing Tape, Case of 36 Rolls",
-      "quantity": 46,
-      "unit_price": 33.81,
-      "total": 1555.26
-    },
-    {
       "description": "Case of Copy Paper (10 reams)",
-      "quantity": 43,
-      "unit_price": 43.47,
-      "total": 1869.21
+      "quantity": 18,
+      "unit_price": 48.88,
+      "total": 879.84
+    },
+    {
+      "description": "Nitrile Gloves, Box of 100",
+      "quantity": 24,
+      "unit_price": 10.05,
+      "total": 241.2
     }
   ],
-  "total_amount": 6762.99
+  "total_amount": 1121.04
 }

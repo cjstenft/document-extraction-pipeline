@@ -1,34 +1,28 @@
 {
   "document_type": "packing_slip",
-  "document_number": "PS-593152",
-  "date": "2023-09-16",
-  "vendor_name": "Summit Ridge Supply Co.",
-  "buyer_name": "Highland Park Grocers",
+  "document_number": "PS-584417",
+  "date": "2024-11-04",
+  "vendor_name": "Brightwater Electronics",
+  "buyer_name": "Orion Manufacturing LLC",
   "line_items": [
     {
       "description": "Pallet Wrap Film, 18in x 1500ft",
-      "quantity": 50,
-      "unit_price": 27.32,
-      "total": 1366.0
+      "quantity": 49,
+      "unit_price": 19.98,
+      "total": 979.02
     },
     {
-      "description": "Corrugated Shipping Box, 18x18x18",
-      "quantity": 3,
-      "unit_price": 3.62,
-      "total": 10.86
+      "description": "Office Chair, Ergonomic Mesh Back",
+      "quantity": 29,
+      "unit_price": 187.6,
+      "total": 5440.4
     },
     {
-      "description": "Whiteboard Marker, Box of 12",
-      "quantity": 16,
-      "unit_price": 7.59,
-      "total": 121.44
-    },
-    {
-      "description": "Steel L-Bracket, 4in",
-      "quantity": 2,
-      "unit_price": 2.59,
-      "total": 5.18
+      "description": "Pallet Wrap Film, 18in x 1500ft",
+      "quantity": 19,
+      "unit_price": 19.61,
+      "total": 372.59
     }
   ],
-  "total_amount": 1503.48
+  "total_amount": 6792.01
 }

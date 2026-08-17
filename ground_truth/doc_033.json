@@ -1,22 +1,28 @@
 {
   "document_type": "bill_of_lading",
-  "document_number": "BOL-54057",
-  "date": "2023-01-30",
-  "vendor_name": "Silverline Packaging Co.",
+  "document_number": "BOL-26299",
+  "date": "2023-10-23",
+  "vendor_name": "Stonebridge Fabrication",
   "buyer_name": "Highland Park Grocers",
   "line_items": [
     {
-      "description": "Anti-Static Wrist Strap",
-      "quantity": 40,
-      "unit_price": 6.2,
-      "total": 248.0
+      "description": "Nitrile Gloves, Box of 100",
+      "quantity": 35,
+      "unit_price": 13.19,
+      "total": 461.65
     },
     {
-      "description": "Industrial Rubber Gasket, 2in",
-      "quantity": 26,
-      "unit_price": 5.86,
-      "total": 152.36
+      "description": "Hydraulic Fitting, 1/2in NPT",
+      "quantity": 6,
+      "unit_price": 10.99,
+      "total": 65.94
+    },
+    {
+      "description": "Ball Bearing, 608ZZ",
+      "quantity": 28,
+      "unit_price": 1.44,
+      "total": 40.32
     }
   ],
-  "total_amount": 400.36
+  "total_amount": 567.91
 }

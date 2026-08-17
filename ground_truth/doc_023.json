@@ -1,28 +1,34 @@
 {
   "document_type": "packing_slip",
-  "document_number": "PS-956253",
-  "date": "2023-08-16",
-  "vendor_name": "Stonebridge Fabrication",
-  "buyer_name": "Crestwood Contractors",
+  "document_number": "PS-691807",
+  "date": "2024-02-08",
+  "vendor_name": "Summit Ridge Supply Co.",
+  "buyer_name": "Cedarbrook Retail Group",
   "line_items": [
     {
-      "description": "Corrugated Shipping Box, 18x18x18",
-      "quantity": 13,
-      "unit_price": 2.79,
-      "total": 36.27
+      "description": "Industrial Rubber Gasket, 2in",
+      "quantity": 17,
+      "unit_price": 4.74,
+      "total": 80.58
     },
     {
-      "description": "Wireless Optical Mouse",
-      "quantity": 18,
-      "unit_price": 40.59,
-      "total": 730.62
+      "description": "Anti-Static Wrist Strap",
+      "quantity": 14,
+      "unit_price": 5.73,
+      "total": 80.22
     },
     {
-      "description": "Extension Cord, 25ft 12AWG",
-      "quantity": 50,
-      "unit_price": 20.58,
-      "total": 1029.0
+      "description": "Adjustable Laptop Stand",
+      "quantity": 22,
+      "unit_price": 46.17,
+      "total": 1015.74
+    },
+    {
+      "description": "USB-C Charging Cable, 6ft",
+      "quantity": 25,
+      "unit_price": 7.24,
+      "total": 181.0
     }
   ],
-  "total_amount": 1795.89
+  "total_amount": 1357.54
 }

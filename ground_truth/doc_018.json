@@ -1,22 +1,46 @@
 {
   "document_type": "bill_of_lading",
-  "document_number": "BOL-41285",
-  "date": "2023-07-29",
-  "vendor_name": "Redstone Components Inc.",
-  "buyer_name": "Lakeshore Automotive Parts",
+  "document_number": "BOL-49446",
+  "date": "2024-09-22",
+  "vendor_name": "Silverline Packaging Co.",
+  "buyer_name": "Willowmere Electronics",
   "line_items": [
     {
-      "description": "Whiteboard Marker, Box of 12",
-      "quantity": 30,
-      "unit_price": 8.53,
-      "total": 255.9
+      "description": "LED Panel Light, 2x4ft",
+      "quantity": 42,
+      "unit_price": 61.11,
+      "total": 2566.62
     },
     {
-      "description": "LED Panel Light, 2x4ft",
-      "quantity": 49,
-      "unit_price": 91.79,
-      "total": 4497.71
+      "description": "Vinyl Floor Marking Tape, 2in",
+      "quantity": 29,
+      "unit_price": 12.42,
+      "total": 360.18
+    },
+    {
+      "description": "Safety Goggles, Case of 12",
+      "quantity": 14,
+      "unit_price": 31.2,
+      "total": 436.8
+    },
+    {
+      "description": "Cordless Drill, 20V",
+      "quantity": 48,
+      "unit_price": 77.73,
+      "total": 3731.04
+    },
+    {
+      "description": "Ceramic Coffee Mug, 12oz",
+      "quantity": 6,
+      "unit_price": 3.49,
+      "total": 20.94
+    },
+    {
+      "description": "Office Chair, Ergonomic Mesh Back",
+      "quantity": 43,
+      "unit_price": 170.45,
+      "total": 7329.35
     }
   ],
-  "total_amount": 4753.61
+  "total_amount": 14444.93
 }

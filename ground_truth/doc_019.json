@@ -1,34 +1,46 @@
 {
   "document_type": "purchase_order",
-  "document_number": "PO-2024-01201",
-  "date": "2024-07-30",
-  "vendor_name": "Granite Peak Chemical Supply",
-  "buyer_name": "Beacon Hill Enterprises",
+  "document_number": "PO-2024-09432",
+  "date": "2024-04-11",
+  "vendor_name": "Pinecrest Logistics",
+  "buyer_name": "Highland Park Grocers",
   "line_items": [
     {
-      "description": "Industrial Rubber Gasket, 2in",
-      "quantity": 24,
-      "unit_price": 4.25,
-      "total": 102.0
+      "description": "Aluminum Extrusion, 1m Length",
+      "quantity": 45,
+      "unit_price": 9.58,
+      "total": 431.1
     },
     {
-      "description": "Pallet Wrap Film, 18in x 1500ft",
-      "quantity": 29,
-      "unit_price": 25.34,
-      "total": 734.86
-    },
-    {
-      "description": "Steel L-Bracket, 4in",
-      "quantity": 46,
-      "unit_price": 1.83,
-      "total": 84.18
+      "description": "Nitrile Gloves, Box of 100",
+      "quantity": 49,
+      "unit_price": 16.67,
+      "total": 816.83
     },
     {
       "description": "Corrugated Shipping Box, 18x18x18",
-      "quantity": 42,
-      "unit_price": 3.09,
-      "total": 129.78
+      "quantity": 7,
+      "unit_price": 3.68,
+      "total": 25.76
+    },
+    {
+      "description": "Nitrile Gloves, Box of 100",
+      "quantity": 8,
+      "unit_price": 16.45,
+      "total": 131.6
+    },
+    {
+      "description": "Industrial Rubber Gasket, 2in",
+      "quantity": 15,
+      "unit_price": 3.67,
+      "total": 55.05
+    },
+    {
+      "description": "Whiteboard Marker, Box of 12",
+      "quantity": 45,
+      "unit_price": 10.14,
+      "total": 456.3
     }
   ],
-  "total_amount": 1050.82
+  "total_amount": 2051.95
 }

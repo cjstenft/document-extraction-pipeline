@@ -1,34 +1,52 @@
 {
   "document_type": "packing_slip",
-  "document_number": "PS-360735",
-  "date": "2023-12-14",
-  "vendor_name": "Pinecrest Logistics",
-  "buyer_name": "Beacon Hill Enterprises",
+  "document_number": "PS-240814",
+  "date": "2024-11-10",
+  "vendor_name": "Redstone Components Inc.",
+  "buyer_name": "Cedarbrook Retail Group",
   "line_items": [
     {
+      "description": "Wooden Shipping Pallet, 48x40",
+      "quantity": 14,
+      "unit_price": 19.18,
+      "total": 268.52
+    },
+    {
+      "description": "Packing Tape, Case of 36 Rolls",
+      "quantity": 14,
+      "unit_price": 49.87,
+      "total": 698.18
+    },
+    {
       "description": "Industrial Rubber Gasket, 2in",
-      "quantity": 30,
-      "unit_price": 4.06,
-      "total": 121.8
+      "quantity": 50,
+      "unit_price": 4.8,
+      "total": 240.0
     },
     {
-      "description": "Cordless Drill, 20V",
-      "quantity": 5,
-      "unit_price": 98.23,
-      "total": 491.15
-    },
-    {
-      "description": "Adjustable Laptop Stand",
-      "quantity": 36,
-      "unit_price": 21.62,
-      "total": 778.32
+      "description": "Industrial Rubber Gasket, 2in",
+      "quantity": 17,
+      "unit_price": 5.4,
+      "total": 91.8
     },
     {
       "description": "Hydraulic Fitting, 1/2in NPT",
-      "quantity": 42,
-      "unit_price": 13.99,
-      "total": 587.58
+      "quantity": 17,
+      "unit_price": 13.29,
+      "total": 225.93
+    },
+    {
+      "description": "LED Panel Light, 2x4ft",
+      "quantity": 4,
+      "unit_price": 49.61,
+      "total": 198.44
+    },
+    {
+      "description": "Office Chair, Ergonomic Mesh Back",
+      "quantity": 28,
+      "unit_price": 196.96,
+      "total": 5514.88
     }
   ],
-  "total_amount": 1978.85
+  "total_amount": 7237.75
 }

@@ -1,46 +1,46 @@
 {
   "document_type": "bill_of_lading",
-  "document_number": "BOL-44438",
-  "date": "2024-07-28",
-  "vendor_name": "Fieldstone Equipment Rental",
-  "buyer_name": "Lakeshore Automotive Parts",
+  "document_number": "BOL-11504",
+  "date": "2023-09-15",
+  "vendor_name": "Cascade Fastener & Tool",
+  "buyer_name": "Southgate Retailers Inc.",
   "line_items": [
     {
-      "description": "Nitrile Gloves, Box of 100",
-      "quantity": 6,
-      "unit_price": 15.68,
-      "total": 94.08
-    },
-    {
-      "description": "Pallet Wrap Film, 18in x 1500ft",
-      "quantity": 8,
-      "unit_price": 14.45,
-      "total": 115.6
-    },
-    {
-      "description": "Corrugated Shipping Box, 18x18x18",
-      "quantity": 11,
-      "unit_price": 3.71,
-      "total": 40.81
-    },
-    {
-      "description": "Industrial Rubber Gasket, 2in",
+      "description": "Vinyl Floor Marking Tape, 2in",
       "quantity": 28,
-      "unit_price": 5.88,
-      "total": 164.64
+      "unit_price": 9.58,
+      "total": 268.24
     },
     {
-      "description": "Ball Bearing, 608ZZ",
-      "quantity": 25,
-      "unit_price": 0.97,
-      "total": 24.25
+      "description": "Hydraulic Fitting, 1/2in NPT",
+      "quantity": 1,
+      "unit_price": 13.65,
+      "total": 13.65
     },
     {
-      "description": "Aluminum Extrusion, 1m Length",
-      "quantity": 30,
-      "unit_price": 17.17,
-      "total": 515.1
+      "description": "Whiteboard Marker, Box of 12",
+      "quantity": 47,
+      "unit_price": 8.11,
+      "total": 381.17
+    },
+    {
+      "description": "Stainless Steel Hex Bolt, M8",
+      "quantity": 33,
+      "unit_price": 0.49,
+      "total": 16.17
+    },
+    {
+      "description": "Case of Copy Paper (10 reams)",
+      "quantity": 33,
+      "unit_price": 59.9,
+      "total": 1976.7
+    },
+    {
+      "description": "LED Panel Light, 2x4ft",
+      "quantity": 41,
+      "unit_price": 59.92,
+      "total": 2456.72
     }
   ],
-  "total_amount": 954.48
+  "total_amount": 5112.65
 }

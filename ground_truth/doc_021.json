@@ -1,40 +1,28 @@
 {
   "document_type": "bill_of_lading",
-  "document_number": "BOL-31178",
-  "date": "2023-05-14",
-  "vendor_name": "Stonebridge Fabrication",
-  "buyer_name": "Willowmere Electronics",
+  "document_number": "BOL-40311",
+  "date": "2023-05-22",
+  "vendor_name": "Silverline Packaging Co.",
+  "buyer_name": "Highland Park Grocers",
   "line_items": [
     {
-      "description": "Packing Tape, Case of 36 Rolls",
-      "quantity": 10,
-      "unit_price": 46.19,
-      "total": 461.9
-    },
-    {
-      "description": "Wireless Optical Mouse",
-      "quantity": 24,
-      "unit_price": 31.43,
-      "total": 754.32
-    },
-    {
-      "description": "Case of Copy Paper (10 reams)",
-      "quantity": 10,
-      "unit_price": 48.31,
-      "total": 483.1
+      "description": "Safety Goggles, Case of 12",
+      "quantity": 27,
+      "unit_price": 29.34,
+      "total": 792.18
     },
     {
       "description": "Steel L-Bracket, 4in",
-      "quantity": 3,
-      "unit_price": 1.84,
-      "total": 5.52
+      "quantity": 35,
+      "unit_price": 2.22,
+      "total": 77.7
     },
     {
-      "description": "Toner Cartridge, High Yield",
-      "quantity": 3,
-      "unit_price": 103.43,
-      "total": 310.29
+      "description": "Steel L-Bracket, 4in",
+      "quantity": 25,
+      "unit_price": 2.49,
+      "total": 62.25
     }
   ],
-  "total_amount": 2015.13
+  "total_amount": 932.13
 }

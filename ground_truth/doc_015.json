@@ -1,34 +1,28 @@
 {
   "document_type": "bill_of_lading",
-  "document_number": "BOL-31798",
-  "date": "2023-04-06",
-  "vendor_name": "Brightwater Electronics",
-  "buyer_name": "Northstar Foods Corp.",
+  "document_number": "BOL-26704",
+  "date": "2023-06-01",
+  "vendor_name": "Blue Anchor Industrial",
+  "buyer_name": "Riverside Assembly Inc.",
   "line_items": [
     {
-      "description": "Nitrile Gloves, Box of 100",
-      "quantity": 25,
-      "unit_price": 11.02,
-      "total": 275.5
-    },
-    {
       "description": "USB-C Charging Cable, 6ft",
-      "quantity": 30,
-      "unit_price": 7.32,
-      "total": 219.6
+      "quantity": 44,
+      "unit_price": 6.93,
+      "total": 304.92
     },
     {
-      "description": "Adjustable Laptop Stand",
-      "quantity": 45,
-      "unit_price": 53.42,
-      "total": 2403.9
+      "description": "Pallet Wrap Film, 18in x 1500ft",
+      "quantity": 7,
+      "unit_price": 17.66,
+      "total": 123.62
     },
     {
-      "description": "Wireless Optical Mouse",
+      "description": "Safety Goggles, Case of 12",
       "quantity": 36,
-      "unit_price": 34.01,
-      "total": 1224.36
+      "unit_price": 37.91,
+      "total": 1364.76
     }
   ],
-  "total_amount": 4123.36
+  "total_amount": 1793.3
 }

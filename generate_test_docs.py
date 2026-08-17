@@ -18,6 +18,7 @@ import json
 import random
 from datetime import date, timedelta
 from pathlib import Path
+from xml.sax.saxutils import escape as xml_escape
 
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_RIGHT
@@ -121,6 +122,12 @@ DATE_FORMATS = [
     "%Y-%m-%d",
 ]
 
+# Printed quantity sometimes carries a unit abbreviation ("45 ea") instead of
+# a bare number. Ground truth always stores the clean integer -- the model
+# has to parse past the unit, which is a realistic extraction difficulty
+# that a bare-number quantity never exercises.
+QUANTITY_UNIT_SUFFIXES = ["ea", "cs", "pcs", "units", "box"]
+
 NOTES_POOL = [
     "Please inspect all items upon receipt and report discrepancies within 5 business days.",
     "Payment due within 30 days of invoice date.",
@@ -174,6 +181,33 @@ def build_document(rng, index):
             "total": total,
         })
 
+    # Near-duplicate line item: same product, different quantity/price --
+    # simulates a split shipment or tiered pricing. Tests whether the model
+    # tracks each line independently by position instead of merging two
+    # rows with the same description into one.
+    if len(line_items) >= 1 and rng.random() < 0.25:
+        source = rng.choice(line_items)
+        quantity = rng.randint(1, 50)
+        unit_price = round(source["unit_price"] * rng.uniform(0.85, 1.15), 2)
+        total = round(quantity * unit_price, 2)
+        duplicate = {
+            "description": source["description"],
+            "quantity": quantity,
+            "unit_price": unit_price,
+            "total": total,
+        }
+        line_items.insert(rng.randint(0, len(line_items)), duplicate)
+
+    # Per-item printed quantity, possibly with a unit suffix (PDF only --
+    # ground truth quantity below always stays the clean integer).
+    quantity_display = [
+        f"{item['quantity']} {rng.choice(QUANTITY_UNIT_SUFFIXES)}" if rng.random() < 0.3 else str(item["quantity"])
+        for item in line_items
+    ]
+
+    # Not every real document prints a currency symbol next to amounts.
+    show_currency_symbol = rng.random() > 0.2
+
     subtotal = round(sum(item["total"] for item in line_items), 2)
 
     # Purchase orders often carry a tax line that a packing slip/BOL
@@ -197,10 +231,10 @@ def build_document(rng, index):
         "total_amount": total_amount,
     }
 
-    return ground_truth, printed_date, notes
+    return ground_truth, printed_date, notes, quantity_display, show_currency_symbol
 
 
-def render_pdf(path, doc, printed_date, notes):
+def render_pdf(path, doc, printed_date, notes, quantity_display, show_currency_symbol):
     styles = getSampleStyleSheet()
     title_style = ParagraphStyle("DocTitle", parent=styles["Title"], fontSize=18, spaceAfter=6)
     label_style = ParagraphStyle("Label", parent=styles["Normal"], fontSize=10, leading=14)
@@ -218,21 +252,25 @@ def render_pdf(path, doc, printed_date, notes):
     vendor_label, buyer_label = PARTY_LABELS[doc["document_type"]]
     party_data = [
         [Paragraph(f"<b>{vendor_label}</b>", label_style), Paragraph(f"<b>{buyer_label}</b>", label_style)],
-        [Paragraph(doc["vendor_name"], label_style), Paragraph(doc["buyer_name"], label_style)],
+        [
+            Paragraph(xml_escape(doc["vendor_name"]), label_style),
+            Paragraph(xml_escape(doc["buyer_name"]), label_style),
+        ],
     ]
     party_table = Table(party_data, colWidths=[3.25 * inch, 3.25 * inch])
     party_table.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP")]))
     elements.append(party_table)
     elements.append(Spacer(1, 20))
 
+    currency = "$" if show_currency_symbol else ""
     headers = ITEM_HEADERS[doc["document_type"]]
     table_data = [headers]
-    for item in doc["line_items"]:
+    for item, qty_display in zip(doc["line_items"], quantity_display):
         table_data.append([
-            Paragraph(item["description"], cell_style),
-            str(item["quantity"]),
-            f"${item['unit_price']:,.2f}",
-            f"${item['total']:,.2f}",
+            Paragraph(xml_escape(item["description"]), cell_style),
+            qty_display,
+            f"{currency}{item['unit_price']:,.2f}",
+            f"{currency}{item['total']:,.2f}",
         ])
     item_table = Table(table_data, colWidths=[3.1 * inch, 1.0 * inch, 1.1 * inch, 1.2 * inch])
     item_table.setStyle(TableStyle([
@@ -249,11 +287,11 @@ def render_pdf(path, doc, printed_date, notes):
     ]))
     elements.append(item_table)
     elements.append(Spacer(1, 14))
-    elements.append(Paragraph(f"<b>Total: ${doc['total_amount']:,.2f}</b>", total_style))
+    elements.append(Paragraph(f"<b>Total: {currency}{doc['total_amount']:,.2f}</b>", total_style))
 
     if notes:
         elements.append(Spacer(1, 28))
-        elements.append(Paragraph(notes, notes_style))
+        elements.append(Paragraph(xml_escape(notes), notes_style))
 
     pdf = SimpleDocTemplate(
         str(path), pagesize=letter,
@@ -276,14 +314,14 @@ def main():
     type_counts = {t: 0 for t in DOCUMENT_TYPES}
 
     for i in range(1, args.count + 1):
-        ground_truth, printed_date, notes = build_document(rng, i - 1)
+        ground_truth, printed_date, notes, quantity_display, show_currency_symbol = build_document(rng, i - 1)
         type_counts[ground_truth["document_type"]] += 1
 
         stem = f"doc_{i:03d}"
         pdf_path = DOCUMENTS_DIR / f"{stem}.pdf"
         json_path = GROUND_TRUTH_DIR / f"{stem}.json"
 
-        render_pdf(pdf_path, ground_truth, printed_date, notes)
+        render_pdf(pdf_path, ground_truth, printed_date, notes, quantity_display, show_currency_symbol)
         json_path.write_text(json.dumps(ground_truth, indent=2), encoding="utf-8")
 
         print(f"  {stem}: {ground_truth['document_type']:<15} "

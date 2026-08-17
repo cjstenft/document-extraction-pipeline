@@ -1,34 +1,34 @@
 {
   "document_type": "purchase_order",
-  "document_number": "PO-2023-08798",
-  "date": "2023-01-12",
-  "vendor_name": "Redstone Components Inc.",
-  "buyer_name": "Fairview Auto Repair",
+  "document_number": "PO-2023-00950",
+  "date": "2023-11-11",
+  "vendor_name": "Harborview Materials",
+  "buyer_name": "Ashford Warehouse Solutions",
   "line_items": [
     {
-      "description": "Case of Copy Paper (10 reams)",
-      "quantity": 30,
-      "unit_price": 38.08,
-      "total": 1142.4
+      "description": "Steel L-Bracket, 4in",
+      "quantity": 35,
+      "unit_price": 2.94,
+      "total": 102.9
     },
     {
-      "description": "LED Panel Light, 2x4ft",
-      "quantity": 47,
-      "unit_price": 88.79,
-      "total": 4173.13
+      "description": "Wooden Shipping Pallet, 48x40",
+      "quantity": 9,
+      "unit_price": 18.6,
+      "total": 167.4
     },
     {
-      "description": "Cordless Drill, 20V",
-      "quantity": 17,
-      "unit_price": 137.89,
-      "total": 2344.13
+      "description": "Aluminum Extrusion, 1m Length",
+      "quantity": 36,
+      "unit_price": 11.89,
+      "total": 428.04
     },
     {
-      "description": "Adjustable Laptop Stand",
-      "quantity": 49,
-      "unit_price": 24.61,
-      "total": 1205.89
+      "description": "Vinyl Floor Marking Tape, 2in",
+      "quantity": 34,
+      "unit_price": 16.72,
+      "total": 568.48
     }
   ],
-  "total_amount": 8865.55
+  "total_amount": 1266.82
 }

@@ -1,40 +1,34 @@
 {
   "document_type": "packing_slip",
-  "document_number": "PS-330283",
-  "date": "2024-10-17",
-  "vendor_name": "Copperfield Industrial Supply",
-  "buyer_name": "Brookline Restaurant Group",
+  "document_number": "PS-246413",
+  "date": "2023-05-27",
+  "vendor_name": "Harborview Materials",
+  "buyer_name": "Highland Park Grocers",
   "line_items": [
     {
-      "description": "USB-C Charging Cable, 6ft",
-      "quantity": 5,
-      "unit_price": 6.52,
-      "total": 32.6
-    },
-    {
-      "description": "Corrugated Shipping Box, 18x18x18",
-      "quantity": 37,
-      "unit_price": 3.91,
-      "total": 144.67
-    },
-    {
-      "description": "Stainless Steel Hex Bolt, M8",
-      "quantity": 21,
-      "unit_price": 0.25,
-      "total": 5.25
-    },
-    {
-      "description": "Nitrile Gloves, Box of 100",
-      "quantity": 32,
-      "unit_price": 12.26,
-      "total": 392.32
-    },
-    {
       "description": "Hydraulic Fitting, 1/2in NPT",
-      "quantity": 42,
-      "unit_price": 9.94,
-      "total": 417.48
+      "quantity": 38,
+      "unit_price": 9.5,
+      "total": 361.0
+    },
+    {
+      "description": "Wooden Shipping Pallet, 48x40",
+      "quantity": 15,
+      "unit_price": 21.97,
+      "total": 329.55
+    },
+    {
+      "description": "Ceramic Coffee Mug, 12oz",
+      "quantity": 9,
+      "unit_price": 4.28,
+      "total": 38.52
+    },
+    {
+      "description": "Cordless Drill, 20V",
+      "quantity": 6,
+      "unit_price": 121.68,
+      "total": 730.08
     }
   ],
-  "total_amount": 992.32
+  "total_amount": 1459.15
 }

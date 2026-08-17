@@ -1,16 +1,46 @@
 {
   "document_type": "packing_slip",
-  "document_number": "PS-723398",
-  "date": "2023-09-10",
-  "vendor_name": "Blue Anchor Industrial",
-  "buyer_name": "Marlowe Industrial Partners",
+  "document_number": "PS-636265",
+  "date": "2024-03-22",
+  "vendor_name": "Cascade Fastener & Tool",
+  "buyer_name": "Lakeshore Automotive Parts",
   "line_items": [
     {
-      "description": "Extension Cord, 25ft 12AWG",
-      "quantity": 38,
-      "unit_price": 26.3,
-      "total": 999.4
+      "description": "Safety Goggles, Case of 12",
+      "quantity": 35,
+      "unit_price": 34.36,
+      "total": 1202.6
+    },
+    {
+      "description": "Hydraulic Fitting, 1/2in NPT",
+      "quantity": 48,
+      "unit_price": 12.03,
+      "total": 577.44
+    },
+    {
+      "description": "USB-C Charging Cable, 6ft",
+      "quantity": 13,
+      "unit_price": 8.17,
+      "total": 106.21
+    },
+    {
+      "description": "Cordless Drill, 20V",
+      "quantity": 5,
+      "unit_price": 136.17,
+      "total": 680.85
+    },
+    {
+      "description": "Wireless Optical Mouse",
+      "quantity": 22,
+      "unit_price": 32.75,
+      "total": 720.5
+    },
+    {
+      "description": "Ball Bearing, 608ZZ",
+      "quantity": 43,
+      "unit_price": 1.59,
+      "total": 68.37
     }
   ],
-  "total_amount": 999.4
+  "total_amount": 3355.97
 }

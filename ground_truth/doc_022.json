@@ -1,46 +1,22 @@
 {
   "document_type": "purchase_order",
-  "document_number": "PO-2024-05795",
-  "date": "2024-11-13",
-  "vendor_name": "Granite Peak Chemical Supply",
+  "document_number": "PO-2024-08948",
+  "date": "2024-03-05",
+  "vendor_name": "Timberline Building Materials",
   "buyer_name": "Ashford Warehouse Solutions",
   "line_items": [
     {
-      "description": "Office Chair, Ergonomic Mesh Back",
-      "quantity": 27,
-      "unit_price": 88.35,
-      "total": 2385.45
-    },
-    {
-      "description": "Wooden Shipping Pallet, 48x40",
-      "quantity": 48,
-      "unit_price": 21.24,
-      "total": 1019.52
-    },
-    {
-      "description": "Industrial Rubber Gasket, 2in",
-      "quantity": 27,
-      "unit_price": 6.96,
-      "total": 187.92
-    },
-    {
       "description": "Corrugated Shipping Box, 18x18x18",
-      "quantity": 48,
-      "unit_price": 3.76,
-      "total": 180.48
+      "quantity": 28,
+      "unit_price": 2.99,
+      "total": 83.72
     },
     {
-      "description": "Adjustable Laptop Stand",
-      "quantity": 18,
-      "unit_price": 23.89,
-      "total": 430.02
-    },
-    {
-      "description": "Whiteboard Marker, Box of 12",
-      "quantity": 45,
-      "unit_price": 6.86,
-      "total": 308.7
+      "description": "Hydraulic Fitting, 1/2in NPT",
+      "quantity": 25,
+      "unit_price": 9.02,
+      "total": 225.5
     }
   ],
-  "total_amount": 4512.09
+  "total_amount": 309.22
 }

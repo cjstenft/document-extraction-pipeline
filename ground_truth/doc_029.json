@@ -1,22 +1,22 @@
 {
   "document_type": "packing_slip",
-  "document_number": "PS-361303",
-  "date": "2023-02-21",
-  "vendor_name": "Cascade Fastener & Tool",
-  "buyer_name": "Northstar Foods Corp.",
+  "document_number": "PS-410636",
+  "date": "2023-04-13",
+  "vendor_name": "Harborview Materials",
+  "buyer_name": "Crestwood Contractors",
   "line_items": [
     {
-      "description": "Anti-Static Wrist Strap",
-      "quantity": 34,
-      "unit_price": 8.93,
-      "total": 303.62
+      "description": "Wireless Optical Mouse",
+      "quantity": 35,
+      "unit_price": 16.61,
+      "total": 581.35
     },
     {
-      "description": "Extension Cord, 25ft 12AWG",
-      "quantity": 39,
-      "unit_price": 21.35,
-      "total": 832.65
+      "description": "Toner Cartridge, High Yield",
+      "quantity": 3,
+      "unit_price": 108.33,
+      "total": 324.99
     }
   ],
-  "total_amount": 1136.27
+  "total_amount": 906.34
 }
