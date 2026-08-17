@@ -11,8 +11,9 @@ items before comparing) adds its own scoring logic that could mask real
 extraction errors -- and ordering mistakes are themselves useful signal.
 
 Usage:
-    python score.py                  # score every document, print full report
-    python score.py --examples 10    # show more example mismatches per field
+    python score.py                              # score outputs/ against ground_truth/
+    python score.py --examples 10                # show more example mismatches per field
+    python score.py --output-dir outputs_sonnet   # score a different extraction run
 """
 
 import argparse
@@ -21,8 +22,7 @@ from collections import defaultdict
 from pathlib import Path
 
 GROUND_TRUTH_DIR = Path("ground_truth")
-OUTPUTS_DIR = Path("outputs")
-REPORT_PATH = OUTPUTS_DIR / "scoring_report.json"
+DEFAULT_OUTPUT_DIR = Path("outputs")
 
 SCALAR_FIELDS = ["document_type", "document_number", "date", "vendor_name", "buyer_name", "total_amount"]
 LINE_ITEM_FIELDS = ["description", "quantity", "unit_price", "total"]
@@ -79,9 +79,9 @@ def flatten_comparison(pred: dict, truth: dict) -> list[dict]:
     return rows
 
 
-def score_document(doc_id: str) -> list[dict] | None:
+def score_document(doc_id: str, output_dir: Path) -> list[dict] | None:
     truth_path = GROUND_TRUTH_DIR / f"{doc_id}.json"
-    output_path = OUTPUTS_DIR / f"{doc_id}.json"
+    output_path = output_dir / f"{doc_id}.json"
 
     if not output_path.exists():
         print(f"  {doc_id}: SKIPPED (no extraction output found)")
@@ -99,6 +99,8 @@ def score_document(doc_id: str) -> list[dict] | None:
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--examples", type=int, default=3, help="Example mismatches to show per field type")
+    parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR,
+                         help=f"Directory of extracted JSON to score (default: {DEFAULT_OUTPUT_DIR})")
     args = parser.parse_args()
 
     doc_ids = sorted(p.stem for p in GROUND_TRUTH_DIR.glob("*.json"))
@@ -107,10 +109,10 @@ def main():
         return
 
     all_rows: list[dict] = []
-    print(f"Scoring {len(doc_ids)} document(s)...\n")
+    print(f"Scoring {len(doc_ids)} document(s) from {args.output_dir}/...\n")
 
     for doc_id in doc_ids:
-        rows = score_document(doc_id)
+        rows = score_document(doc_id, args.output_dir)
         if rows is None:
             continue
         correct = sum(1 for r in rows if r["match"])
@@ -176,9 +178,10 @@ def main():
         "total_correct": total_correct,
         "field_stats": field_stats,
     }
-    OUTPUTS_DIR.mkdir(exist_ok=True)
-    REPORT_PATH.write_text(json.dumps(report, indent=2), encoding="utf-8")
-    print(f"Full report written to {REPORT_PATH}")
+    report_path = args.output_dir / "scoring_report.json"
+    args.output_dir.mkdir(exist_ok=True)
+    report_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
+    print(f"Full report written to {report_path}")
 
 
 if __name__ == "__main__":
