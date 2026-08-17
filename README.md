@@ -58,7 +58,11 @@ original evaluation exactly.
 There's no public labeled dataset of purchase orders / packing slips / bills
 of lading suited to this, so the test set is synthetic: 35 documents
 generated with `reportlab` (`generate_test_docs.py`), split roughly evenly
-across the three document types. Critically, each document's ground truth JSON is written
+across the three document types. Generation is seeded (`--seed`, default
+`42`) specifically so the committed `documents/` and `ground_truth/` are
+reproducible — running `python generate_test_docs.py` with no arguments
+regenerates the exact same 35 documents byte-for-byte, not a different
+random test set. Critically, each document's ground truth JSON is written
 from the *exact same data structure* used to render its PDF — there's no
 separate hand-labeling step that could drift from what's actually on the
 page. Ground truth was manually spot-checked during development, which is
