@@ -1,0 +1,3 @@
+anthropic
+reportlab
+python-dotenv
