@@ -1,0 +1,46 @@
+{
+  "document_type": "bill_of_lading",
+  "document_number": "BOL-53404",
+  "date": "2024-02-14",
+  "vendor_name": "Summit Ridge Supply Co.",
+  "buyer_name": "Cedarbrook Retail Group",
+  "line_items": [
+    {
+      "description": "Hydraulic Fitting, 1/2in NPT",
+      "quantity": 39,
+      "unit_price": 9.76,
+      "total": 380.64
+    },
+    {
+      "description": "Adjustable Laptop Stand",
+      "quantity": 47,
+      "unit_price": 47.1,
+      "total": 2213.7
+    },
+    {
+      "description": "Ceramic Coffee Mug, 12oz",
+      "quantity": 28,
+      "unit_price": 4.62,
+      "total": 129.36
+    },
+    {
+      "description": "Vinyl Floor Marking Tape, 2in",
+      "quantity": 33,
+      "unit_price": 9.16,
+      "total": 302.28
+    },
+    {
+      "description": "USB-C Charging Cable, 6ft",
+      "quantity": 37,
+      "unit_price": 6.29,
+      "total": 232.73
+    },
+    {
+      "description": "Case of Copy Paper (10 reams)",
+      "quantity": 3,
+      "unit_price": 55.01,
+      "total": 165.03
+    }
+  ],
+  "total_amount": 3423.74
+}

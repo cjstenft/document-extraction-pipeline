@@ -1,0 +1,28 @@
+{
+  "document_type": "packing_slip",
+  "document_number": "PS-736130",
+  "date": "2024-03-16",
+  "vendor_name": "Copperfield Industrial Supply",
+  "buyer_name": "Northstar Foods Corp.",
+  "line_items": [
+    {
+      "description": "Extension Cord, 25ft 12AWG",
+      "quantity": 31,
+      "unit_price": 30.87,
+      "total": 956.97
+    },
+    {
+      "description": "Safety Goggles, Case of 12",
+      "quantity": 48,
+      "unit_price": 25.05,
+      "total": 1202.4
+    },
+    {
+      "description": "Ball Bearing, 608ZZ",
+      "quantity": 6,
+      "unit_price": 0.83,
+      "total": 4.98
+    }
+  ],
+  "total_amount": 2164.35
+}

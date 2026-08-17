@@ -1,0 +1,22 @@
+{
+  "document_type": "packing_slip",
+  "document_number": "PS-361303",
+  "date": "2023-02-21",
+  "vendor_name": "Cascade Fastener & Tool",
+  "buyer_name": "Northstar Foods Corp.",
+  "line_items": [
+    {
+      "description": "Anti-Static Wrist Strap",
+      "quantity": 34,
+      "unit_price": 8.93,
+      "total": 303.62
+    },
+    {
+      "description": "Extension Cord, 25ft 12AWG",
+      "quantity": 39,
+      "unit_price": 21.35,
+      "total": 832.65
+    }
+  ],
+  "total_amount": 1136.27
+}

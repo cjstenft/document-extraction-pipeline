@@ -1,0 +1,28 @@
+{
+  "document_type": "purchase_order",
+  "document_number": "PO-2024-03186",
+  "date": "2024-10-06",
+  "vendor_name": "Silverline Packaging Co.",
+  "buyer_name": "Northstar Foods Corp.",
+  "line_items": [
+    {
+      "description": "Industrial Rubber Gasket, 2in",
+      "quantity": 1,
+      "unit_price": 7.44,
+      "total": 7.44
+    },
+    {
+      "description": "Whiteboard Marker, Box of 12",
+      "quantity": 50,
+      "unit_price": 13.08,
+      "total": 654.0
+    },
+    {
+      "description": "Toner Cartridge, High Yield",
+      "quantity": 50,
+      "unit_price": 72.63,
+      "total": 3631.5
+    }
+  ],
+  "total_amount": 4642.39
+}

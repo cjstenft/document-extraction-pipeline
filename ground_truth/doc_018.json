@@ -1,0 +1,22 @@
+{
+  "document_type": "bill_of_lading",
+  "document_number": "BOL-41285",
+  "date": "2023-07-29",
+  "vendor_name": "Redstone Components Inc.",
+  "buyer_name": "Lakeshore Automotive Parts",
+  "line_items": [
+    {
+      "description": "Whiteboard Marker, Box of 12",
+      "quantity": 30,
+      "unit_price": 8.53,
+      "total": 255.9
+    },
+    {
+      "description": "LED Panel Light, 2x4ft",
+      "quantity": 49,
+      "unit_price": 91.79,
+      "total": 4497.71
+    }
+  ],
+  "total_amount": 4753.61
+}

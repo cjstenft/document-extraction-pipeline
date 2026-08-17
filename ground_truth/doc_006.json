@@ -1,0 +1,46 @@
+{
+  "document_type": "bill_of_lading",
+  "document_number": "BOL-44438",
+  "date": "2024-07-28",
+  "vendor_name": "Fieldstone Equipment Rental",
+  "buyer_name": "Lakeshore Automotive Parts",
+  "line_items": [
+    {
+      "description": "Nitrile Gloves, Box of 100",
+      "quantity": 6,
+      "unit_price": 15.68,
+      "total": 94.08
+    },
+    {
+      "description": "Pallet Wrap Film, 18in x 1500ft",
+      "quantity": 8,
+      "unit_price": 14.45,
+      "total": 115.6
+    },
+    {
+      "description": "Corrugated Shipping Box, 18x18x18",
+      "quantity": 11,
+      "unit_price": 3.71,
+      "total": 40.81
+    },
+    {
+      "description": "Industrial Rubber Gasket, 2in",
+      "quantity": 28,
+      "unit_price": 5.88,
+      "total": 164.64
+    },
+    {
+      "description": "Ball Bearing, 608ZZ",
+      "quantity": 25,
+      "unit_price": 0.97,
+      "total": 24.25
+    },
+    {
+      "description": "Aluminum Extrusion, 1m Length",
+      "quantity": 30,
+      "unit_price": 17.17,
+      "total": 515.1
+    }
+  ],
+  "total_amount": 954.48
+}

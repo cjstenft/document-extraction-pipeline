@@ -1,0 +1,22 @@
+{
+  "document_type": "packing_slip",
+  "document_number": "PS-559381",
+  "date": "2024-10-27",
+  "vendor_name": "Amberlake Textiles",
+  "buyer_name": "Northstar Foods Corp.",
+  "line_items": [
+    {
+      "description": "Corrugated Shipping Box, 18x18x18",
+      "quantity": 22,
+      "unit_price": 1.9,
+      "total": 41.8
+    },
+    {
+      "description": "Steel L-Bracket, 4in",
+      "quantity": 36,
+      "unit_price": 1.65,
+      "total": 59.4
+    }
+  ],
+  "total_amount": 101.2
+}

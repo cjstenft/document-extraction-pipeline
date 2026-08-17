@@ -1,0 +1,46 @@
+{
+  "document_type": "packing_slip",
+  "document_number": "PS-240814",
+  "date": "2024-11-10",
+  "vendor_name": "Redstone Components Inc.",
+  "buyer_name": "Cedarbrook Retail Group",
+  "line_items": [
+    {
+      "description": "Wooden Shipping Pallet, 48x40",
+      "quantity": 14,
+      "unit_price": 19.18,
+      "total": 268.52
+    },
+    {
+      "description": "Packing Tape, Case of 36 Rolls",
+      "quantity": 14,
+      "unit_price": 49.87,
+      "total": 698.18
+    },
+    {
+      "description": "Industrial Rubber Gasket, 2in",
+      "quantity": 17,
+      "unit_price": 5.4,
+      "total": 91.8
+    },
+    {
+      "description": "Hydraulic Fitting, 1/2in NPT",
+      "quantity": 17,
+      "unit_price": 13.29,
+      "total": 225.93
+    },
+    {
+      "description": "LED Panel Light, 2x4ft",
+      "quantity": 4,
+      "unit_price": 49.61,
+      "total": 198.44
+    },
+    {
+      "description": "Office Chair, Ergonomic Mesh Back",
+      "quantity": 28,
+      "unit_price": 196.96,
+      "total": 5514.88
+    }
+  ],
+  "total_amount": 6997.75
+}

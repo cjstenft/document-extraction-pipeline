@@ -1,0 +1,34 @@
+{
+  "document_type": "packing_slip",
+  "document_number": "PS-998348",
+  "date": "2024-12-13",
+  "vendor_name": "Fieldstone Equipment Rental",
+  "buyer_name": "Lakeshore Automotive Parts",
+  "line_items": [
+    {
+      "description": "Pallet Wrap Film, 18in x 1500ft",
+      "quantity": 27,
+      "unit_price": 20.61,
+      "total": 556.47
+    },
+    {
+      "description": "LED Panel Light, 2x4ft",
+      "quantity": 48,
+      "unit_price": 72.31,
+      "total": 3470.88
+    },
+    {
+      "description": "Vinyl Floor Marking Tape, 2in",
+      "quantity": 39,
+      "unit_price": 16.98,
+      "total": 662.22
+    },
+    {
+      "description": "Nitrile Gloves, Box of 100",
+      "quantity": 32,
+      "unit_price": 10.58,
+      "total": 338.56
+    }
+  ],
+  "total_amount": 5028.13
+}

@@ -1,0 +1,22 @@
+{
+  "document_type": "purchase_order",
+  "document_number": "PO-2023-07788",
+  "date": "2023-05-09",
+  "vendor_name": "Granite Peak Chemical Supply",
+  "buyer_name": "Palisade Construction Co.",
+  "line_items": [
+    {
+      "description": "Office Chair, Ergonomic Mesh Back",
+      "quantity": 14,
+      "unit_price": 210.4,
+      "total": 2945.6
+    },
+    {
+      "description": "Cordless Drill, 20V",
+      "quantity": 49,
+      "unit_price": 119.74,
+      "total": 5867.26
+    }
+  ],
+  "total_amount": 9046.4
+}

@@ -1,0 +1,28 @@
+{
+  "document_type": "packing_slip",
+  "document_number": "PS-738551",
+  "date": "2023-11-02",
+  "vendor_name": "Pinecrest Logistics",
+  "buyer_name": "Palisade Construction Co.",
+  "line_items": [
+    {
+      "description": "Adjustable Laptop Stand",
+      "quantity": 34,
+      "unit_price": 51.98,
+      "total": 1767.32
+    },
+    {
+      "description": "Packing Tape, Case of 36 Rolls",
+      "quantity": 39,
+      "unit_price": 40.43,
+      "total": 1576.77
+    },
+    {
+      "description": "Vinyl Floor Marking Tape, 2in",
+      "quantity": 2,
+      "unit_price": 9.12,
+      "total": 18.24
+    }
+  ],
+  "total_amount": 3362.33
+}

@@ -1,0 +1,46 @@
+{
+  "document_type": "bill_of_lading",
+  "document_number": "BOL-76162",
+  "date": "2024-03-29",
+  "vendor_name": "Brightwater Electronics",
+  "buyer_name": "Brookline Restaurant Group",
+  "line_items": [
+    {
+      "description": "Anti-Static Wrist Strap",
+      "quantity": 41,
+      "unit_price": 4.66,
+      "total": 191.06
+    },
+    {
+      "description": "Adjustable Laptop Stand",
+      "quantity": 50,
+      "unit_price": 37.29,
+      "total": 1864.5
+    },
+    {
+      "description": "Aluminum Extrusion, 1m Length",
+      "quantity": 41,
+      "unit_price": 12.97,
+      "total": 531.77
+    },
+    {
+      "description": "Vinyl Floor Marking Tape, 2in",
+      "quantity": 29,
+      "unit_price": 8.77,
+      "total": 254.33
+    },
+    {
+      "description": "Hydraulic Fitting, 1/2in NPT",
+      "quantity": 19,
+      "unit_price": 8.26,
+      "total": 156.94
+    },
+    {
+      "description": "Corrugated Shipping Box, 18x18x18",
+      "quantity": 22,
+      "unit_price": 2.6,
+      "total": 57.2
+    }
+  ],
+  "total_amount": 3055.8
+}

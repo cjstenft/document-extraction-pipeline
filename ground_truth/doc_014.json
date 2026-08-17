@@ -1,0 +1,34 @@
+{
+  "document_type": "packing_slip",
+  "document_number": "PS-360735",
+  "date": "2023-12-14",
+  "vendor_name": "Pinecrest Logistics",
+  "buyer_name": "Beacon Hill Enterprises",
+  "line_items": [
+    {
+      "description": "Industrial Rubber Gasket, 2in",
+      "quantity": 30,
+      "unit_price": 4.06,
+      "total": 121.8
+    },
+    {
+      "description": "Cordless Drill, 20V",
+      "quantity": 5,
+      "unit_price": 98.23,
+      "total": 491.15
+    },
+    {
+      "description": "Adjustable Laptop Stand",
+      "quantity": 36,
+      "unit_price": 21.62,
+      "total": 778.32
+    },
+    {
+      "description": "Hydraulic Fitting, 1/2in NPT",
+      "quantity": 42,
+      "unit_price": 13.99,
+      "total": 587.58
+    }
+  ],
+  "total_amount": 1978.85
+}

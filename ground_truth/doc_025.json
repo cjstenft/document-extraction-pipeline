@@ -1,0 +1,52 @@
+{
+  "document_type": "purchase_order",
+  "document_number": "PO-2024-05968",
+  "date": "2024-12-04",
+  "vendor_name": "Brightwater Electronics",
+  "buyer_name": "Cedarbrook Retail Group",
+  "line_items": [
+    {
+      "description": "Stainless Steel Hex Bolt, M8",
+      "quantity": 20,
+      "unit_price": 0.45,
+      "total": 9.0
+    },
+    {
+      "description": "Office Chair, Ergonomic Mesh Back",
+      "quantity": 21,
+      "unit_price": 139.32,
+      "total": 2925.72
+    },
+    {
+      "description": "Vinyl Floor Marking Tape, 2in",
+      "quantity": 19,
+      "unit_price": 13.54,
+      "total": 257.26
+    },
+    {
+      "description": "Extension Cord, 25ft 12AWG",
+      "quantity": 13,
+      "unit_price": 23.41,
+      "total": 304.33
+    },
+    {
+      "description": "Case of Copy Paper (10 reams)",
+      "quantity": 25,
+      "unit_price": 54.26,
+      "total": 1356.5
+    },
+    {
+      "description": "LED Panel Light, 2x4ft",
+      "quantity": 12,
+      "unit_price": 75.78,
+      "total": 909.36
+    },
+    {
+      "description": "Ball Bearing, 608ZZ",
+      "quantity": 20,
+      "unit_price": 1.0,
+      "total": 20.0
+    }
+  ],
+  "total_amount": 5782.17
+}

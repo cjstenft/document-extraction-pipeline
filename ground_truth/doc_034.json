@@ -1,0 +1,16 @@
+{
+  "document_type": "purchase_order",
+  "document_number": "PO-2023-02224",
+  "date": "2023-03-27",
+  "vendor_name": "Stonebridge Fabrication",
+  "buyer_name": "Palisade Construction Co.",
+  "line_items": [
+    {
+      "description": "Nitrile Gloves, Box of 100",
+      "quantity": 21,
+      "unit_price": 10.51,
+      "total": 220.71
+    }
+  ],
+  "total_amount": 234.99
+}

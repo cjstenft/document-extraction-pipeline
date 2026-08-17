@@ -1,0 +1,46 @@
+{
+  "document_type": "purchase_order",
+  "document_number": "PO-2024-05795",
+  "date": "2024-11-13",
+  "vendor_name": "Granite Peak Chemical Supply",
+  "buyer_name": "Ashford Warehouse Solutions",
+  "line_items": [
+    {
+      "description": "Office Chair, Ergonomic Mesh Back",
+      "quantity": 27,
+      "unit_price": 88.35,
+      "total": 2385.45
+    },
+    {
+      "description": "Wooden Shipping Pallet, 48x40",
+      "quantity": 48,
+      "unit_price": 21.24,
+      "total": 1019.52
+    },
+    {
+      "description": "Industrial Rubber Gasket, 2in",
+      "quantity": 27,
+      "unit_price": 6.96,
+      "total": 187.92
+    },
+    {
+      "description": "Corrugated Shipping Box, 18x18x18",
+      "quantity": 48,
+      "unit_price": 3.76,
+      "total": 180.48
+    },
+    {
+      "description": "Adjustable Laptop Stand",
+      "quantity": 18,
+      "unit_price": 23.89,
+      "total": 430.02
+    },
+    {
+      "description": "Whiteboard Marker, Box of 12",
+      "quantity": 45,
+      "unit_price": 6.86,
+      "total": 308.7
+    }
+  ],
+  "total_amount": 4512.09
+}

@@ -1,0 +1,16 @@
+{
+  "document_type": "bill_of_lading",
+  "document_number": "BOL-40007",
+  "date": "2024-12-25",
+  "vendor_name": "Meridian Hardware Group",
+  "buyer_name": "Ashford Warehouse Solutions",
+  "line_items": [
+    {
+      "description": "Stainless Steel Hex Bolt, M8",
+      "quantity": 5,
+      "unit_price": 0.38,
+      "total": 1.9
+    }
+  ],
+  "total_amount": 1.9
+}

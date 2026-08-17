@@ -1,0 +1,28 @@
+{
+  "document_type": "bill_of_lading",
+  "document_number": "BOL-22240",
+  "date": "2024-09-26",
+  "vendor_name": "Harborview Materials",
+  "buyer_name": "Southgate Retailers Inc.",
+  "line_items": [
+    {
+      "description": "Safety Goggles, Case of 12",
+      "quantity": 3,
+      "unit_price": 26.41,
+      "total": 79.23
+    },
+    {
+      "description": "Industrial Rubber Gasket, 2in",
+      "quantity": 31,
+      "unit_price": 5.96,
+      "total": 184.76
+    },
+    {
+      "description": "Wireless Optical Mouse",
+      "quantity": 50,
+      "unit_price": 14.87,
+      "total": 743.5
+    }
+  ],
+  "total_amount": 1007.49
+}

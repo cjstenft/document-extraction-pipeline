@@ -1,0 +1,34 @@
+{
+  "document_type": "bill_of_lading",
+  "document_number": "BOL-31798",
+  "date": "2023-04-06",
+  "vendor_name": "Brightwater Electronics",
+  "buyer_name": "Northstar Foods Corp.",
+  "line_items": [
+    {
+      "description": "Nitrile Gloves, Box of 100",
+      "quantity": 25,
+      "unit_price": 11.02,
+      "total": 275.5
+    },
+    {
+      "description": "USB-C Charging Cable, 6ft",
+      "quantity": 30,
+      "unit_price": 7.32,
+      "total": 219.6
+    },
+    {
+      "description": "Adjustable Laptop Stand",
+      "quantity": 45,
+      "unit_price": 53.42,
+      "total": 2403.9
+    },
+    {
+      "description": "Wireless Optical Mouse",
+      "quantity": 36,
+      "unit_price": 34.01,
+      "total": 1224.36
+    }
+  ],
+  "total_amount": 4123.36
+}

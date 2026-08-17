@@ -1,0 +1,22 @@
+{
+  "document_type": "bill_of_lading",
+  "document_number": "BOL-54057",
+  "date": "2023-01-30",
+  "vendor_name": "Silverline Packaging Co.",
+  "buyer_name": "Highland Park Grocers",
+  "line_items": [
+    {
+      "description": "Anti-Static Wrist Strap",
+      "quantity": 40,
+      "unit_price": 6.2,
+      "total": 248.0
+    },
+    {
+      "description": "Industrial Rubber Gasket, 2in",
+      "quantity": 26,
+      "unit_price": 5.86,
+      "total": 152.36
+    }
+  ],
+  "total_amount": 400.36
+}

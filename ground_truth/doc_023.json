@@ -1,0 +1,28 @@
+{
+  "document_type": "packing_slip",
+  "document_number": "PS-956253",
+  "date": "2023-08-16",
+  "vendor_name": "Stonebridge Fabrication",
+  "buyer_name": "Crestwood Contractors",
+  "line_items": [
+    {
+      "description": "Corrugated Shipping Box, 18x18x18",
+      "quantity": 13,
+      "unit_price": 2.79,
+      "total": 36.27
+    },
+    {
+      "description": "Wireless Optical Mouse",
+      "quantity": 18,
+      "unit_price": 40.59,
+      "total": 730.62
+    },
+    {
+      "description": "Extension Cord, 25ft 12AWG",
+      "quantity": 50,
+      "unit_price": 20.58,
+      "total": 1029.0
+    }
+  ],
+  "total_amount": 1795.89
+}

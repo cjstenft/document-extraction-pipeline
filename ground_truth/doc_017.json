@@ -1,0 +1,16 @@
+{
+  "document_type": "packing_slip",
+  "document_number": "PS-723398",
+  "date": "2023-09-10",
+  "vendor_name": "Blue Anchor Industrial",
+  "buyer_name": "Marlowe Industrial Partners",
+  "line_items": [
+    {
+      "description": "Extension Cord, 25ft 12AWG",
+      "quantity": 38,
+      "unit_price": 26.3,
+      "total": 999.4
+    }
+  ],
+  "total_amount": 999.4
+}

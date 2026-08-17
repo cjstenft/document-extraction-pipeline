@@ -1,0 +1,16 @@
+{
+  "document_type": "bill_of_lading",
+  "document_number": "BOL-41571",
+  "date": "2023-09-03",
+  "vendor_name": "Fieldstone Equipment Rental",
+  "buyer_name": "Cedarbrook Retail Group",
+  "line_items": [
+    {
+      "description": "Aluminum Extrusion, 1m Length",
+      "quantity": 5,
+      "unit_price": 23.68,
+      "total": 118.4
+    }
+  ],
+  "total_amount": 118.4
+}

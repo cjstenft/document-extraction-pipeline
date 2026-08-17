@@ -1,0 +1,22 @@
+{
+  "document_type": "purchase_order",
+  "document_number": "PO-2024-00410",
+  "date": "2024-10-16",
+  "vendor_name": "Redstone Components Inc.",
+  "buyer_name": "Beacon Hill Enterprises",
+  "line_items": [
+    {
+      "description": "Wooden Shipping Pallet, 48x40",
+      "quantity": 44,
+      "unit_price": 19.41,
+      "total": 854.04
+    },
+    {
+      "description": "Case of Copy Paper (10 reams)",
+      "quantity": 35,
+      "unit_price": 40.09,
+      "total": 1403.15
+    }
+  ],
+  "total_amount": 2262.83
+}

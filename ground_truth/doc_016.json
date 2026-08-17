@@ -1,0 +1,40 @@
+{
+  "document_type": "purchase_order",
+  "document_number": "PO-2023-03567",
+  "date": "2023-07-14",
+  "vendor_name": "Blue Anchor Industrial",
+  "buyer_name": "Marlowe Industrial Partners",
+  "line_items": [
+    {
+      "description": "USB-C Charging Cable, 6ft",
+      "quantity": 33,
+      "unit_price": 14.13,
+      "total": 466.29
+    },
+    {
+      "description": "Wooden Shipping Pallet, 48x40",
+      "quantity": 34,
+      "unit_price": 13.57,
+      "total": 461.38
+    },
+    {
+      "description": "Stainless Steel Hex Bolt, M8",
+      "quantity": 33,
+      "unit_price": 0.19,
+      "total": 6.27
+    },
+    {
+      "description": "Ceramic Coffee Mug, 12oz",
+      "quantity": 12,
+      "unit_price": 2.74,
+      "total": 32.88
+    },
+    {
+      "description": "Aluminum Extrusion, 1m Length",
+      "quantity": 5,
+      "unit_price": 19.29,
+      "total": 96.45
+    }
+  ],
+  "total_amount": 1074.12
+}
